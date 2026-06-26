@@ -1,18 +1,33 @@
-*.iml
-.gradle
-.kotlin
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
-local.properties
+# === Secrets & API Keys ===
 .env
-debug.keystore
+*.jks
+*.keystore
+google-services.json
+
+# === Gradle ===
+.gradle/
+build/
+local.properties
+*.hprof
+
+# === Android Studio / IntelliJ ===
+.idea/
+*.iml
+*.iws
+*.ipr
+captures/
+.externalNativeBuild/
+.cxx/
+
+# === OS ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Generated ===
+generated/
+out/
+
+# === Test results ===
+test-results/
+lint/
