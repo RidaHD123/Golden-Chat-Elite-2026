@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Golden Chat Elite",
+  "description": "Sovereign social platform combining Substack, Wire and Facebook with robust local persistence and secure AI services.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
